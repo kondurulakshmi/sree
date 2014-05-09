@@ -1,0 +1,8 @@
+<html>
+<head>
+</head>
+<body>
+Full_name:<input type="text" name="{{fullname}}">
+Email_id :<input type="text" name="{{emailid}}">
+</body>
+</html>

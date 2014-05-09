@@ -1,0 +1,9 @@
+Hi {{fullname}} !
+
+Your Mail Id: {{mailing}}
+
+You are successfully registered. Soon we will send the best resume that matches your profile.
+
+Thank you
+
+--Management Team

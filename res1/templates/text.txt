@@ -1,0 +1,39 @@
+Hi {{fullname}} !
+
+Your Mail Id: {{mailing}}
+
+You are successfully registered. Soon we will send the best resume that matches your profile.
+
+Here is the soft copy of your details. Please check it.
+
+If you want to make any changes please mail us with your name and mail id.
+
+
+Full name:   {{fullname}}                    Mail Id: {{mailing}}
+
+EDUCATION DETAILS:
+
+------------------------------------------------------------------
+   Qualification   :    {{qua}} 
+   University      :    {{univ}} 
+   Year of passing :    {{year}} 
+   Percentage      :    {{perc}} 
+
+------------------------------------------------------------------
+
+PROFESSIONAL DETAILS:
+
+------------------------------------------------------------------
+   Job Type          : {{job}} 
+   Total Experience  : {{exp}} 
+   Current Industry  : {{ind}} 
+   Functional Area   : {{fun}} 
+   Key Skills        : {{key}} 
+
+------------------------------------------------------------------
+
+
+Thank you
+
+--Management Team
+

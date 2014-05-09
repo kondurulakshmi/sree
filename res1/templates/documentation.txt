@@ -1,0 +1,37 @@
+DOCUMENTATION FOR OUR PROJECT:
+
+  This is the Resume application which the user can get his best resume easily by giving his/her details.
+
+  -> The theme of the project is that "The user gives his name, mailid, qualification details and his profession details and then he clicks on the REGISTER button
+  -> After clicking the button, the mail will be  sent to the particular user mailid in which he have given in the resume details
+  -> That mail will be like this:
+
+       Hi yashwanth !
+
+       Your Mail Id: yashwanthbabu.gujarathi@gmail.com
+
+       You are successfully registered. Soon we will send the best resume that matches your profile.
+
+       Thank you
+
+       --Management Team
+
+  -> Next, the another button was "DOWNLOAD AS PDF". After clicking this the details entered by the user should be displayed in the particular format and should be downloaded.
+  -> This copy is not the exact resume that offered for the user. This is just a soft copy for verification of details that user have entered.
+  -> Then after that the management team will send the resume to that particular mailid in few days.
+
+
+FRONT END DESCRIPTION:
+
+  -> First page is home.html. In that name and mailid fields are available. If mailid is not valid, validations will occur. Then click on getmyresume. Then second page be redirected.
+
+  -> Second page is education.html. This is education details. In this qualification, university, year of passin, percentage fields are available. In this, AddMore and Continue are two buttons. If we click AddMore then the details which we have previously entered will be cleared and the extra details will be given. Same in the third page too.
+
+  -> Third page is profession.html. This is profession details. Here every details will be given and then user will click the continue button. Then Register and downloadAsPdf buttons will be visible.
+
+  -> After clicking the REGISTER button, the user will get the alert as "You are successfully register. Please check your mail". Then the user will get the mail
+
+ 
+
+
+THank You

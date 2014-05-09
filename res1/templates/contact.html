@@ -1,0 +1,36 @@
+
+
+
+
+<form name="myform4" id="myform4" method="POST">
+{% csrf_token %}
+<input type="hidden" name="m3" value="{{mail}}">
+<input type="hidden" name="n3" value="{{name}}">
+<input type="hidden" name="q2" value="{{qua}}">
+<input type="hidden" name="u2" value="{{univ}}">
+<input type="hidden" name="y12" value="{{year}}">
+<input type="hidden" name="p2" value="{{perc}}">
+<input type="hidden" name="j1" value="{{job}}">
+<input type="hidden" name="e1" value="{{exp}}">
+<input type="hidden" name="i1" value="{{ind}}">
+<input type="hidden" name="f1" value="{{func}}">
+<input type="hidden" name="k1" value="{{key}}">
+<!--Name: <INPUT TYPE="text" NAME="username"><BR>
+Email: <INPUT TYPE="text" NAME="from_email"><BR>
+Message: <BR>
+<TEXTAREA NAME="message" ROWS="10" WRAP="hard">
+</TEXTAREA>-->
+<INPUT NAME="redirect" TYPE="hidden">
+<INPUT NAME="NEXT_URL" TYPE="hidden">
+<BR>
+<center><INPUT TYPE="button" VALUE="Register" id="send" name="send"></center>
+</FORM>
+
+<script>
+$(document).ready(function(){
+$("#send").click(function(){
+$("#sk4").load('text.html')
+});
+});
+</script>
+
